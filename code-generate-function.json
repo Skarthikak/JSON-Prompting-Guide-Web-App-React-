@@ -1,0 +1,27 @@
+{
+  "id": "code-generate-function",
+  "category": "Code Generation",
+  "title": "Generate function + tests from spec",
+  "description": "Produce a function implementation, docstring, complexity note, and unit tests.",
+  "input_schema": {
+    "function_name": "string",
+    "description": "string",
+    "language": "javascript|python"
+  },
+  "prompt_template": "Write a {{language}} function named {{function_name}} that {{description}}. Include docstring/comments, complexity analysis, and at least 3 unit tests.",
+  "examples": [
+    {
+      "input": {
+        "function_name": "isPrime",
+        "description": "returns true if n is prime",
+        "language": "javascript"
+      },
+      "output_hint": "Use O(sqrt(n)) algorithm; provide Jest tests."
+    }
+  ],
+  "tags": [
+    "code",
+    "tests",
+    "refactor"
+  ]
+}

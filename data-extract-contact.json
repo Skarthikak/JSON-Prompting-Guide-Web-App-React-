@@ -1,0 +1,23 @@
+{
+  "id": "data-extract-contact",
+  "category": "Data Extraction",
+  "title": "Extract contact fields from text",
+  "description": "Return name, email, phone, company as JSON; set null if missing.",
+  "input_schema": {
+    "text": "string"
+  },
+  "prompt_template": "Extract name, email, phone, company from the following text and return ONLY valid JSON with those fields. If missing, use null. Text: {{text}}",
+  "examples": [
+    {
+      "input": {
+        "text": "Priya Shah, Senior ML Engineer at DataZen, priya@datzen.com"
+      },
+      "output_hint": "{\"name\":\"Priya Shah\",\"email\":\"priya@datzen.com\",\"phone\":null,\"company\":\"DataZen\"}"
+    }
+  ],
+  "tags": [
+    "parsing",
+    "nlp",
+    "json"
+  ]
+}

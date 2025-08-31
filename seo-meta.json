@@ -1,0 +1,29 @@
+{
+  "id": "seo-meta",
+  "category": "SEO / Marketing",
+  "title": "Meta title & description generator",
+  "description": "Create SEO-optimized meta title and meta description given an article and keywords.",
+  "input_schema": {
+    "article": "string",
+    "keywords": [
+      "string"
+    ]
+  },
+  "prompt_template": "Create a meta title (<=60 chars) and meta description (<=155 chars) for the article focused on keywords: {{keywords}}. Article: {{article}}",
+  "examples": [
+    {
+      "input": {
+        "article": "(sustainable fashion article)",
+        "keywords": [
+          "sustainable fashion",
+          "eco-friendly clothes"
+        ]
+      },
+      "output_hint": "Short title and description with keywords."
+    }
+  ],
+  "tags": [
+    "seo",
+    "marketing"
+  ]
+}

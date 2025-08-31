@@ -1,0 +1,27 @@
+{
+  "id": "conv-support-reply",
+  "category": "Conversational",
+  "title": "Support reply with troubleshooting and ETA",
+  "description": "Respond empathetically and provide two quick troubleshooting steps plus an ETA based on urgency.",
+  "input_schema": {
+    "customer_name": "string",
+    "issue_summary": "string",
+    "urgency": "low|medium|high"
+  },
+  "prompt_template": "You are a helpful support agent. Reply to {{customer_name}} who reports: \"{{issue_summary}}\". Keep under 6 sentences, express empathy, list 2 troubleshooting steps, and provide an ETA (use 48h for low, 24h for medium, 4h for high).",
+  "examples": [
+    {
+      "input": {
+        "customer_name": "Ravi",
+        "issue_summary": "App crashes on login",
+        "urgency": "high"
+      },
+      "output_hint": "Apologize briefly, steps: clear cache, update app. If still failing, escalate and provide 4h ETA."
+    }
+  ],
+  "tags": [
+    "support",
+    "customer",
+    "triage"
+  ]
+}

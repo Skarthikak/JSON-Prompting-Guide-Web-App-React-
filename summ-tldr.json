@@ -1,0 +1,24 @@
+{
+  "id": "summ-tldr",
+  "category": "Summarization",
+  "title": "Three-sentence TL;DR with 3 key takeaways",
+  "description": "Produce a short summary then three bullet takeaways.",
+  "input_schema": {
+    "text": "string",
+    "tone": "concise|detailed"
+  },
+  "prompt_template": "Provide a 3-sentence summary of the text and then list 3 key takeaways as bullets. Tone: {{tone}}. Text: {{text}}",
+  "examples": [
+    {
+      "input": {
+        "text": "(long article...)",
+        "tone": "concise"
+      },
+      "output_hint": "Short 3-sentence summary and 3 bullets."
+    }
+  ],
+  "tags": [
+    "summary",
+    "notes"
+  ]
+}

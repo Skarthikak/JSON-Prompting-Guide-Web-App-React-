@@ -1,0 +1,24 @@
+{
+  "id": "creative-expand",
+  "category": "Creative Writing",
+  "title": "Expand story seed into a short scene",
+  "description": "Take a 1-line story seed and write a 300-word scene focused on sensory details and character emotions.",
+  "input_schema": {
+    "seed": "string",
+    "length": "short|medium|long"
+  },
+  "prompt_template": "Expand the seed '{{seed}}' into a {{length}} scene (approx 300 words for 'short') emphasizing sensory details and internal emotion.",
+  "examples": [
+    {
+      "input": {
+        "seed": "A child finds a hidden door in the attic.",
+        "length": "short"
+      },
+      "output_hint": "Write a vivid 300-word scene focusing on mood and discovery."
+    }
+  ],
+  "tags": [
+    "creative",
+    "story"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "email-cold-outreach",
+  "category": "Email",
+  "title": "Cold outreach email with follow-up plan",
+  "description": "A concise cold email (<=150 words) with a 1-sentence follow-up plan.",
+  "input_schema": {
+    "recipient_name": "string",
+    "company": "string",
+    "ask": "string",
+    "tone": "string"
+  },
+  "prompt_template": "Write a {{tone}} cold outreach email to {{recipient_name}} at {{company}} making the ask: {{ask}}. Keep under 150 words and include a 1-sentence follow-up plan.",
+  "examples": [
+    {
+      "input": {
+        "recipient_name": "Alex",
+        "company": "FinTechCo",
+        "ask": "introduce our API",
+        "tone": "friendly"
+      },
+      "output_hint": "Intro, value prop, CTA, follow-up plan."
+    }
+  ],
+  "tags": [
+    "sales",
+    "outreach"
+  ]
+}

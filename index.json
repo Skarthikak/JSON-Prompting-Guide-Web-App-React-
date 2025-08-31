@@ -1,0 +1,106 @@
+[
+  {
+    "id": "conv-support-reply",
+    "title": "Support reply with troubleshooting and ETA",
+    "filename": "prompts/conv-support-reply.json",
+    "category": "Conversational",
+    "tags": [
+      "support",
+      "customer",
+      "triage"
+    ]
+  },
+  {
+    "id": "code-generate-function",
+    "title": "Generate function + tests from spec",
+    "filename": "prompts/code-generate-function.json",
+    "category": "Code Generation",
+    "tags": [
+      "code",
+      "tests",
+      "refactor"
+    ]
+  },
+  {
+    "id": "img-illustration",
+    "title": "Illustration prompt JSON for image models",
+    "filename": "prompts/img-illustration.json",
+    "category": "Image Generation",
+    "tags": [
+      "image",
+      "illustration",
+      "sd"
+    ]
+  },
+  {
+    "id": "data-extract-contact",
+    "title": "Extract contact fields from text",
+    "filename": "prompts/data-extract-contact.json",
+    "category": "Data Extraction",
+    "tags": [
+      "parsing",
+      "nlp",
+      "json"
+    ]
+  },
+  {
+    "id": "summ-tldr",
+    "title": "Three-sentence TL;DR with 3 key takeaways",
+    "filename": "prompts/summ-tldr.json",
+    "category": "Summarization",
+    "tags": [
+      "summary",
+      "notes"
+    ]
+  },
+  {
+    "id": "trans-localize",
+    "title": "Translate + localization notes",
+    "filename": "prompts/trans-localize.json",
+    "category": "Translation",
+    "tags": [
+      "i18n",
+      "translate"
+    ]
+  },
+  {
+    "id": "seo-meta",
+    "title": "Meta title & description generator",
+    "filename": "prompts/seo-meta.json",
+    "category": "SEO / Marketing",
+    "tags": [
+      "seo",
+      "marketing"
+    ]
+  },
+  {
+    "id": "email-cold-outreach",
+    "title": "Cold outreach email with follow-up plan",
+    "filename": "prompts/email-cold-outreach.json",
+    "category": "Email",
+    "tags": [
+      "sales",
+      "outreach"
+    ]
+  },
+  {
+    "id": "qa-generate-tests",
+    "title": "Generate test cases from feature description",
+    "filename": "prompts/qa-generate-tests.json",
+    "category": "Testing",
+    "tags": [
+      "qa",
+      "test-cases"
+    ]
+  },
+  {
+    "id": "creative-expand",
+    "title": "Expand story seed into a short scene",
+    "filename": "prompts/creative-expand.json",
+    "category": "Creative Writing",
+    "tags": [
+      "creative",
+      "story"
+    ]
+  }
+]

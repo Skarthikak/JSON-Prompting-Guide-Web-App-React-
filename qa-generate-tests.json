@@ -1,0 +1,22 @@
+{
+  "id": "qa-generate-tests",
+  "category": "Testing",
+  "title": "Generate test cases from feature description",
+  "description": "Produce positive and negative test cases with inputs and expected outputs.",
+  "input_schema": {
+    "feature_description": "string"
+  },
+  "prompt_template": "From the feature description, generate a table of test cases: id, title, steps, input, expected_output, priority.",
+  "examples": [
+    {
+      "input": {
+        "feature_description": "User can reset password via email link"
+      },
+      "output_hint": "Include expired token, invalid email, success flow."
+    }
+  ],
+  "tags": [
+    "qa",
+    "test-cases"
+  ]
+}

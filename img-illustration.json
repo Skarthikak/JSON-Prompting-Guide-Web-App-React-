@@ -1,0 +1,29 @@
+{
+  "id": "img-illustration",
+  "category": "Image Generation",
+  "title": "Illustration prompt JSON for image models",
+  "description": "Structured JSON that separates prompt and negative_prompt and includes camera/style hints.",
+  "input_schema": {
+    "subject": "string",
+    "style": "string",
+    "mood": "string",
+    "palette": "string"
+  },
+  "prompt_template": "{\"prompt\":\"A {{subject}} in {{style}} style, {{mood}}, color palette: {{palette}}. 3/4 view. High detail.\",\"negative_prompt\":\"lowres, watermark, text, deformities\"}",
+  "examples": [
+    {
+      "input": {
+        "subject": "red fox on mossy rock",
+        "style": "watercolor",
+        "mood": "serene",
+        "palette": "emerald,rust"
+      },
+      "output_hint": "Use side 3/4 camera, include soft grain."
+    }
+  ],
+  "tags": [
+    "image",
+    "illustration",
+    "sd"
+  ]
+}
