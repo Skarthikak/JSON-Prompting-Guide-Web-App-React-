@@ -442,27 +442,6 @@ Brief description of change and reason.
 }
 
 /*
-==================== README: JSON Prompting Guide (Step‑by‑Step) ====================
-
-OVERVIEW
-This document is a step‑by‑step README and usage guide for the JSON Prompting Guide web app. It includes:
-- A short project overview
-- How to run the app locally and deploy
-- How to use the UI (search, preview, edit, download)
-- A clear JSON prompt schema and examples grouped by category with use cases
-- Contribution guidance and suggested GitHub templates
-
-TABLE OF CONTENTS
-1. Project summary
-2. What’s included in the repo
-3. Prompt JSON schema (fields explained)
-4. Quick start — run locally (commands)
-5. UI walkthrough — how to use the app
-6. Prompts by category (use case + example JSON)
-7. Adding new prompts & organizing files
-8. Contribution workflow & templates
-9. Deploying (GitHub Pages / Vercel)
-10. Next steps / Roadmap
 
 --------------------------------------------------------------------------------
 1) PROJECT SUMMARY
@@ -708,20 +687,6 @@ npm run deploy
 - Add automated linting and JSON schema validation in CI (GitHub Actions).
 - Add examples with model-specified outputs and tests to track drift.
 - Create a CONTRIBUTING.md and CODE_OF_CONDUCT.md.
-
-================================================================================
-COPYING THIS README OUT
-This big comment is appended to src/App.jsx for convenience when previewing. Copy the sections you want into a standalone README.md at the repo root for a cleaner view.
-
-If you want, I can now:
-- Create individual prompt JSON files for each example and bundle them into a ZIP for download,
-- Generate a ready-to-paste README.md and CONTRIBUTING.md files as separate textdocs,
-- Create ISSUE/PR templates as separate files in a .github folder, or
-- Produce a GitHub Actions workflow that validates JSON schema on PRs.
-
-Tell me which of the above you'd like next and I'll generate the files directly in the project.
-
-*/
 
 
 ## How to contribute
